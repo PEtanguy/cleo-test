@@ -13,4 +13,18 @@ Email: pierre@cleo.com
 Password: secret
 ```
 
+## Running the file
+
+### Step 1
+Navigate to the directory and run the following command in the terminal once in the folder:
+```
+$ ruby app.rb   
+```
+### Step 2
+The initial state of the program displays all the information contained in the router file. Those are the informations used to run it.
+
+### NOTE
+
+- Balance always start at 0. Balance is not saved once the program is terminated.
+
 ![picture example](/example.png)
