@@ -1,0 +1,1 @@
+![picture example](/example)
