@@ -14,7 +14,8 @@ class ItemsView
 
   def display(items)
     items.each do |item|
-      puts "ID:#{item.id}: #{item.name} - £#{item.price} - Remaining:#{item.quantity}
+      puts "
+      ID:#{item.id}: #{item.name} - £#{item.price} - Remaining:#{item.quantity}
 
       ".brown
     end

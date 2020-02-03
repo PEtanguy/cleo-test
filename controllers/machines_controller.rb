@@ -35,7 +35,7 @@ class MachinesController
     item = @item_repository.find(item)
     change = @view.display_item_properties(item)
     if change == 1
-      price = @view.ask_for("price").to_i
+      price = @view.ask_for("price").to_f
       item.price = price
       @item_repository.find(item.id).price = price
       @item_repository.write_csv
@@ -87,7 +87,6 @@ class MachinesController
       puts "success! Enjoy your #{item.name}!
 
       ".cyan
-
     else
       puts "transaction impossible.
       ".red

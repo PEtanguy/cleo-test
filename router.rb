@@ -55,7 +55,9 @@ class Router
   end
 
   def print_actions
-    puts "Balance: £#{@machines_controller.balance}".bold.bg_green
+    puts "
+
+    Balance: £#{@machines_controller.balance}".bold.bg_green
     puts "
     "
     puts "1. List all items".green
@@ -78,7 +80,6 @@ class Router
     puts "7. Exit
 
     ".red
-
   end
 
   def route_action(action)
@@ -96,16 +97,6 @@ class Router
       ".red
     end
   end
-
-
-  # def route_delivery_guy_action(action)
-  #   case action
-  #   when 1 then @orders_controller.list_my_orders(@employee)
-  #   when 2 then @orders_controller.mark_as_delivered(@employee)
-  #   when 9 then @running = false
-  #   else puts "Wrong action"
-  #   end
-  # end
 
   def ask_action
     puts "
