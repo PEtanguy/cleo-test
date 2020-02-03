@@ -1,4 +1,4 @@
-#CLEO: VENDING-MACHINE TEST
+# CLEO: VENDING-MACHINE TEST
 
 App does not require any packages.
 
@@ -10,6 +10,5 @@ Follow the prompted options to use it.
 ***
 Email: pierre@cleo.com
 Password: secret
-***
 
 ![picture example](/example.png)

@@ -10,6 +10,7 @@ class Router
   def run
 
       print_actions_cool
+      sleep(2)
     while @running
       print_actions
       action = ask_action
