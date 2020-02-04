@@ -1,5 +1,10 @@
 # CLEO: VENDING-MACHINE TEST
 
+## Prerequesite:
+
+run Bundle in the terminal to install Rspec. 
+Tests are not funcitonal yet.
+
 ## Running the file
 
 ### Step 1
