@@ -3,7 +3,7 @@ require "csv"
 class Base
   def initialize(csv_file)
     @csv_file = csv_file
-    @elements = [] # Array of Customer instances
+    @elements = []
     @next_id = 1
     load_csv if File.exist?(@csv_file)
   end
