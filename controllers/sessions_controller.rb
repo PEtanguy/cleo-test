@@ -11,6 +11,10 @@ class SessionsController
     password = @view.ask_for(:Password)
 
     employee = @employee_repository.find_by_email(email)
+    check_password(employee, password)
+  end
+
+  def check_password(employee, password)
     if employee && employee.password == password
       return employee
     else

@@ -1,2 +1,2 @@
-id,username,password
-1,paul,secret
+id,email,password
+1,pierre@cleo.com,secret
