@@ -1,4 +1,3 @@
-require "pry"
 class TransactionlogsView
   def ask_for(label)
     puts "#{label}?".blue

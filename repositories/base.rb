@@ -1,5 +1,4 @@
 require "csv"
-require "pry"
 
 class Base
   def initialize(csv_file)

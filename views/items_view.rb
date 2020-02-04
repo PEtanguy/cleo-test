@@ -1,4 +1,3 @@
-require "pry"
 class ItemsView
   def ask_for(label)
     puts "#{label}?".blue

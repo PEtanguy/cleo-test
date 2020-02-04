@@ -14,6 +14,10 @@ class MachinesController
     @balance = 0
   end
 
+  def balance
+    @balance
+  end
+
   def list
     items = @item_repository.all
     @view.display(items)
