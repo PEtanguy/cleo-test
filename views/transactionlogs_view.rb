@@ -16,8 +16,8 @@ class TransactionlogsView
       puts "
       ----------------------------------------------------------------------
      |  Transaction ID:       #{t.id}
-     |  Quantity purchased:   #{t.quantity}
-     |  Total: £              #{t.total_price}
+     |  Quantity purchased:   #{t.item_quantity}
+     |  Total: £              #{t.total_price/100.00}
      |  Transaction made on:  #{t.datetime}
      |
        ---------------------------------------------------------------------".brown

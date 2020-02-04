@@ -6,7 +6,7 @@ class ItemRepository < Base
   def build_element(row)
     row[:id]    = row[:id].to_i
     row[:name] = row[:name].capitalize
-    row[:price] = row[:price].to_f
+    row[:price] = row[:price].to_i
     row[:quantity] = row[:quantity].to_i
     Item.new(row)
   end

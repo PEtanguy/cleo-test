@@ -1,6 +1,7 @@
 id,name,price,quantity
-1,Cheetos,3.5,14
-2,Hersheys,2.0,7
-3,Kinder bueno,3.0,20
-4,Dragibus,3.0,1
-5,Coca-cola,1.0,20
+1,Cheetos,350,7
+2,Hersheys,200,7
+3,Kinder bueno,300,19
+4,Dragibus,300,0
+5,Coca-cola,100,18
+6,Pepsi,130,2

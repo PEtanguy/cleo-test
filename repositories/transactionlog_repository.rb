@@ -8,7 +8,7 @@ class TransactionlogRepository < Base
     row[:item_id] = row[:item_id].to_i
     row[:id] = row[:id].to_i
     row[:total_price] = row[:total_price].to_i
-    row[:quantity] = row[:quantity].to_i
+    row[:item_quantity] = row[:item_quantity].to_i
     Transactionlog.new(row)
   end
 
@@ -18,7 +18,7 @@ class TransactionlogRepository < Base
     CSV.open(@csv_file, "w") do |csv|
       csv << @elements.first.class.headers
       @elements.each do |element|
-        csv << [element.id, element.quantity, element.total_price, element.item_id, element.datetime]
+        csv << [element.id, element.item_quantity, element.total_price, element.item_id, element.datetime]
       end
     end
   end
