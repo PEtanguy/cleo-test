@@ -19,6 +19,7 @@ class MachinesController
   end
 
   def list
+    @item_repository.load_csv
     items = @item_repository.all
     @view.display(items)
   end
