@@ -63,7 +63,7 @@ class ItemsView
     puts "
     Refill or Change the price:
 
-    1- Price: #{item.price}
+    1- Price: £#{item.price/100}
     2- Quantity: #{item.quantity}
 
     "

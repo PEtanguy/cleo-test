@@ -39,7 +39,7 @@ class MachinesController
     item = @item_repository.find(item)
     change = @view.display_item_properties(item)
     if change == 1
-      price = @view.ask_for("price")
+      price = @view.ask_for("price").to_f * 100.00
       item.price = price
       @item_repository.find(item.id).price = price
       @item_repository.write_csv
