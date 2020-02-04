@@ -3,7 +3,7 @@
 ## Prerequesite:
 
 run Bundle in the terminal to install Rspec. 
-Tests are not funcitonal yet.
+Tests are not functional yet.
 
 ## Running the file
 
