@@ -1,2 +1,2 @@
-id,item_quantity,total_price,item_id
+id,item_quantity,total_price,item_id, datetime
 1,1,130,6,2020-02-04 16:26:32 +0000

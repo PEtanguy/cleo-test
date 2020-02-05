@@ -1,5 +1,5 @@
 class Transactionlog
-  attr_reader :datetime, :item_quantity, :total_price
+  attr_reader :item_quantity, :total_price
   attr_accessor :id, :datetime, :item_id
 
   def initialize(properties = {})
@@ -11,10 +11,10 @@ class Transactionlog
   end
 
   def to_csv_row
-    [@id, @item_quantity, @total_price, @item_id]
+    [@id, @item_quantity, @total_price, @item_id, @datetime]
   end
 
   def self.headers
-    %w[id item_quantity total_price item_id]
+    %w[id item_quantity total_price item_id datetime]
   end
 end

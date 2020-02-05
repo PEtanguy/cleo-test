@@ -1,10 +1,11 @@
 require_relative "base"
 require_relative "../models/transactionlog"
+require "time"
 
 class TransactionlogRepository < Base
 
   def build_element(row)
-    row[:datetime]    = row[:datetime]
+    row[:datetime] = DateTime.parse(row[:datetime])
     row[:item_id] = row[:item_id].to_i
     row[:id] = row[:id].to_i
     row[:total_price] = row[:total_price].to_i
